@@ -29,8 +29,9 @@
 html, body{
     height: 100vh;
 }
+
 body{
-    /*background-color: var(--color-primary);*/
+    background-color: var(--color-small-info);
     display: flex;
     align-items: center;
     justify-content: center;
