@@ -4,7 +4,7 @@
   "description": "Next Level Week #2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/Paulovca/Proffy/issues"
   },
-  "homepage": "https://github.com/Paulovca/Proffy#readme"
+  "homepage": "https://github.com/Paulovca/Proffy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
