@@ -40,7 +40,7 @@
     background: var(--color-primary-light);
     position: absolute;
     left: 1.6rem;
-    
+    /*right: 1.6rem;*/
     bottom: 0px;
 }
 
